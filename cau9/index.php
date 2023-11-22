@@ -59,7 +59,7 @@
     <div class="exchange-container">
         <?php
         // Đường dẫn đến trang web mô phỏng tỉ giá
-        $url = "https://brastelremit.jp/vie/rates";
+        $url = "https://vn.investing.com/currencies/streaming-forex-rates-majors";
 
         // Lấy nội dung của trang web
         $html = file_get_contents($url);
